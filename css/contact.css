@@ -1,0 +1,73 @@
+.body{
+  background-color: #081b35;
+}
+
+.h2 {
+  color: white;
+}
+
+.contact {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 60px;
+  gap: 50px;
+}
+
+#map {
+  /* background-color: white; */
+  /* border: 1px solid rgb(255, 255, 255); */
+  /* border-radius: 8px; */
+  padding: 0px;
+  min-width: 40%;
+  height: 443px;
+}
+
+#map img {
+  height: 443px;
+  width: auto;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+#form {
+  background-color: white;
+  /* color: black; */
+  border: 1px solid rgb(1, 91, 1);
+  border-radius: 8px;
+  padding: 15px;
+  padding-right: 25px;
+  height: 414px;
+  width: 50%;
+  }
+
+  #label_contact_form {
+    /* color: rgb(38, 125, 212); */ 
+    color: #081b35;
+    font-size: 16px;
+    /* font-weight: bold; */
+  }
+
+  #name, #email, #tel {
+    min-width: 100%;
+    border: 1px solid grey;
+    background-color: white;
+    font-size: large;
+  }
+
+  #message {
+    width: 100%;
+    font-size: larger;
+  }
+
+.btn_submit {
+  background-color: #081b35;
+  color: white;
+  padding-left: 20px;
+  /* padding-right: 20px; */
+  padding: 15px 20px;
+}
+
+#btn{
+  display: flex;
+  justify-content: right;
+}

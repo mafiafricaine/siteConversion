@@ -1,0 +1,127 @@
+/* NAVIGATION */
+
+.current-page a {
+  font-weight:bolder;
+  border: 1px solid white;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.backgcolorheader2{
+  background-color: #081b35;
+  /* padding-bottom: 20px; */
+} 
+
+#nav2 {
+  display: flex; 
+  justify-content: space-between; 
+  /* position:fixed;
+  margin-top: 0;
+  top: 0px;
+  height: 100px; 
+  z-index: 1; */
+  padding-top: 30px;
+  background-color: #081b35;
+  padding-bottom: 22px;
+}
+
+#nav{
+  display: flex; 
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+#titres_nav{
+  display: flex;
+}
+
+/* div.current-page a {
+  
+} */
+
+
+#titres_nav div {
+  font-size: 16px;
+  /* vertical-align: middle; */
+  /* background-color: #f0ff8f; */
+}
+
+#titrenav0{
+  color: #404040;
+  padding: 6px;
+  border: 1px solid #404040; 
+}
+
+#titrenav02{
+  color: white;
+  padding: 6px;
+  border: 1px solid white; 
+}
+
+#titrenav1{
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+}
+
+
+#titrenav1:hover {
+  /* color: rgb(62, 4, 31);
+  background-color: white;
+  border: 1px, solid;
+  padding: 6px;
+  border-radius: 5px; */
+
+  /* font-weight:bolder; */
+  /* border: 1px solid white;
+  padding: 6px;
+  border-radius: 5px; */
+  text-decoration: underline;
+}
+
+
+
+#titrenavlogin{
+  margin-left: 50px;
+  color: rgb(61, 199, 61);
+}
+#titrenavlogout{
+  margin-left: 50px;
+  color: rgb(180, 186, 180);
+}
+
+
+
+      
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown-menu {
+      position: relative;
+      display: inline-block;
+  }
+
+      /* Dropdown Content (Hidden by Default) */ 
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        margin-left: 16px;
+        margin-top: 0px;
+        min-width: 150px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }  
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #a9c4c0;}
+
+    /* Show the dropdown menu on hover */
+    .dropdown-menu:hover .dropdown-content {display: block;}

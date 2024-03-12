@@ -1,0 +1,230 @@
+
+
+/* MY PROFILE */
+
+.myprofile{
+display: flex;
+justify-content:left;
+margin-top: 50px;
+}
+
+#cardmyprofile {
+width: 150px;
+/* border: 0.5px solid rgb(225, 224, 224, 0.2);  */
+border-radius: 10px;
+color: white;
+text-align: center;
+background-color: rgb(16, 109, 215); 
+/* margin-bottom: 50px; */
+margin-right: 40px;
+}
+
+#cardmyprofile p {
+text-align: left;
+padding-left: 7px;
+}
+
+#imgmyprofile{
+border-radius: 50%;
+width: 100px;
+padding-top: 60px;
+}
+
+.activities{
+/* margin-left: 15px; */
+/* padding-top: -25px; */
+padding-left: 8px;
+padding-right: 8px;
+background-color:rgb(250, 250, 250);
+width: 100%;
+/* border: 0.5px solid rgb(16, 109, 215); */
+border-radius: 10px;
+}
+
+.log {
+display: flex;
+gap: 10px;
+}
+
+#mycalculus{
+border: 1px solid green;
+background-color: white;
+border-radius: 8px;
+/* background-color: aqua; */
+/* font-size: 20px; */
+margin-bottom: 15px;
+padding: 10px;
+padding-top: 5px;
+font-size: 22px;
+width: 60%;
+}
+
+#mycalculus2{
+  border: 1px solid rgb(87, 92, 87);
+  background-color: white;
+  border-radius: 8px;
+  /* background-color: aqua; */
+  /* font-size: 20px; */
+  margin-bottom: 15px;
+  margin-left: -10px;
+  padding: 10px;
+  padding-top: 5px;
+  font-size: 16px;
+  width: 57%;
+  }
+
+
+#mycalculus p {
+font-weight: bolder;
+font-size: 20px;
+} 
+
+.tbcalculus {
+margin-left: auto;
+margin-right: auto;
+color: rgb(37, 36, 36);
+/* border:none separate; */
+border-spacing: 0px;
+/* border-top-right-radius: 10px; */
+text-align: center;
+margin-bottom: 15px;
+}
+
+#cell_cal, #cell_cal_n,  #cell_cal_n2, #cell_cal_r, #cell_cal_o {
+background-color: white;
+border: 1px solid;
+border-color: rgb(61, 69, 74);
+padding: 8px 15px;
+font-size: 17px;
+/* border-bottom-right-radius: 20px; */
+/* margin-left: 5px; */
+}
+
+#cell_cal_n {
+color: black;
+font-size: 16px;
+} 
+
+#cell_cal_n2 {
+  color: #096125;
+  font-size: 16px;
+  } 
+
+#cell_cal_r {
+font-weight: bold;
+font-size: 16px;
+color: #096125;
+} 
+
+#cell_cal_o {
+/* font-weight: bold; */
+font-size: 16px;
+/* color: white; */
+/* background-color:#597090 */
+color: black;
+} 
+
+#cell_cal8 {
+  /* font-weight: bold; */
+  font-size: 16px;
+  color: white;
+  /* background-color: rgb(72, 99, 130);  */
+  background-color: #081b35;;
+  text-align: left;
+  border: 1px solid black;
+  } 
+
+#mylog {
+border: 1px solid rgb(7, 87, 7);
+background-color: white;
+border-radius: 8px;
+/* background-color: aqua; */
+/* font-size: 20px; */
+margin-bottom: 15px;
+padding: 10px;
+padding-top: 5px;
+font-size: 16px;
+width: 40%;
+}
+
+#mylog p {
+font-weight: bolder;
+font-size: 20px;
+} 
+
+.nbroperations{
+  /* background-color: rgb(62, 4, 31);  
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 8px; */
+  font-weight: bold;
+  font-size: 22px;
+  color: rgb(62, 4, 31);  
+  ;
+}
+
+
+
+/* PAGE LOGIN */
+
+#backgrtablelogin {
+background: linear-gradient(90deg, rgb(4, 42, 9) 3%, rgb(78, 212, 121) 30%, rgb(239, 243, 243) 100%);
+padding: 10px;
+margin-top: 50px;
+border-radius: 5px;
+}
+
+
+#tabledebug {
+  /* margin-top: 50px; */
+  margin-left: auto;
+  margin-right: auto;
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(46, 54, 61) 35%, rgb(248, 250, 250) 100%); */
+  color: black;
+  border:none separate;
+  border-spacing: 3px;
+  /* border-top-right-radius: 10px; */
+  /* border-radius: 20px / 10px; */
+  }
+  
+  #tabledebug tr, td, th {
+    background-color: white;
+    opacity: 1;
+    border: 1px solid;
+    border-color: rgb(197, 210, 21);
+    padding: 10px;
+    /* text-align: center; */
+    /* border-bottom-right-radius: 20px; */ 
+  }
+
+  #imgbug{
+    text-align: center;
+  }
+
+  #th2 {
+    width: 400px;
+  }
+
+#textcenter{
+  text-align: center;
+}
+
+#button_submit{
+background-color: rgb(4, 42, 9);
+color: white;
+padding: 6px;
+border: none;
+}
+
+#button_submit:hover{
+background-color:  rgb(78, 212, 121);
+color: black;
+}
+
+#imglogin{
+width: 300px;
+text-align: center;
+}
+
